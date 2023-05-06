@@ -8,17 +8,19 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
 
 @NgModule({
   declarations: [
-  SideBarComponent,
-  MediaPlayeComponent,
-  HeaderUserComponent
-    ],
+    SideBarComponent,
+    MediaPlayeComponent,
+    HeaderUserComponent
+  ],
   imports: [
-  CommonModule
-    ],
-  exports:[
-  SideBarComponent
-  
-    ]
-  })
-  
+    CommonModule
+  ],
+  exports: [
+    SideBarComponent,
+    MediaPlayeComponent,
+    HeaderUserComponent
+
+  ]
+})
+
 export class SharedModule { }
